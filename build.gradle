@@ -23,7 +23,9 @@ dependencies {
     implementation ':bank-core:'
 }
 
+
 jar {
+    baseName 'bank-server-websocket'
     manifest {
         attributes 'Main-Class': 'bank.Server'
     }
